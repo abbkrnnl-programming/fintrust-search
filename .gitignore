@@ -1,0 +1,49 @@
+# === Data & Artifacts (large / generated) ===
+data/raw/
+data/processed/
+index/
+# models/
+# results/
+
+# === Report & presentation deliverables (kept out of the code repo) ===
+deliverables/
+
+# === Credentials ===
+praw.ini
+.env
+*.key
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb_meta
+
+# === IDE ===
+.vscode/
+.idea/
+*.code-workspace
+
+# === OS ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.bak
